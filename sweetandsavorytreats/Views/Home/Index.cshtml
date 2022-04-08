@@ -1,0 +1,14 @@
+@{
+  Layout = "_Layout";
+}
+
+@using SweetAndSavoryTreats.Models;
+
+<div class="container-fluid">
+  <div class="d-flex justify-content-center"> 
+    <h1 id="title" style="font-size:10vw">Sweet & Savory Treats</h1>
+  </div>
+    <h5>Welcome to Pierre's Sweet & Savory Treats! The place where you can view all of Pierre's treats and flavors! Create an account below if you would like to contribute a treat and flavor to Pierre's growing list!</h5>
+
+    <p>@Html.ActionLink("Create an account", "Index", "Account",  null, new { id = "OT",style = "color: rgb(236, 54, 197);" })</p>
+</div>
