@@ -19,7 +19,7 @@ namespace SweetAndSavoryTreats.Models
 
       builder.UseMySql(configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"]));
 
-      return new RSweetAndSavoryTreatsontext(builder.Options);
+      return new SweetAndSavoryTreatsContext(builder.Options);
     }
   }
 }
