@@ -1,4 +1,4 @@
-using System.Collenctions.Generic;
+using System.Collections.Generic;
 
 namespace SweetAndSavoryTreats.Models
 {
