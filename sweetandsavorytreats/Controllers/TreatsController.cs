@@ -113,5 +113,13 @@ namespace SweetAndSavoryTreats.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+
+    [HttpPost]
+    public ActionResult EditRating(Treat treat, int rating)
+    {  
+      _db.Entry(treat).State = EntityState.Modified;
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
   }
 }
