@@ -14,8 +14,9 @@
   @Html.LabelFor(model => model.Ingredients)
   @Html.TextAreaFor(model => model.Ingredients, new { @class = "textArea" })
 
+  @Html.Label("Select flavor")
+  @Html.DropDownList("FlavorId")
 
-
-  <input type="submit" value="Add new recipe" class="btn btn-default" />
+  <input type="submit" value="Add new treat" class="btn btn-default" />
 }
-<p>@Html.ActionLink("Show all recipes", "Index")</p>
+<p>@Html.ActionLink("Show all treats", "Index")</p>
