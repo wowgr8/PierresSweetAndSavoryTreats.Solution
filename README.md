@@ -27,7 +27,7 @@ An application for displaying Pierre's treats and their flavors. The application
 <em>This project uses <code>dotnet-ef --version 3.0.0</code> which I have globally installed but you can install it however you want. 
 1. Download .NET 5.0 SDK for : <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.102-windows-x64-installer" target="_blank">Windows</a> or <a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-5.0.100-macos-x64-installer" target="_blank">Mac</a>
 
-2. Clone the appliction to your computer by entering: ```git clone https://github.com/wowgr8/Factory.Solution``` in the terminal
+2. Clone the appliction to your computer by entering: ```git clone https://github.com/wowgr8/https://github.com/PierresSweetAndSavoryTreats.Solution``` in the terminal
 3. Open the repository in the terminal 
 4. Import cesar_lopez.sql database into MySql by following these steps 
 5. Launch MySql Workbench 
